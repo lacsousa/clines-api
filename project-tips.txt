@@ -1,0 +1,5 @@
+Creation postgresql by docker
+
+docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 -v "/Volumes/Dados/Luciano/MaterialPesquisa/Alura/TDD-Agilidade/clines-api/BancoDeDados:/var/lib/postgresql/data"  -d postgres
+
+

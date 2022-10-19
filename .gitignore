@@ -4,6 +4,9 @@ target/
 !**/src/main/**
 !**/src/test/**
 
+### pasta with files of the Docker Volume Postgresql
+BancoDeDados/**
+
 ### STS ###
 .apt_generated
 .classpath
@@ -54,3 +57,5 @@ build/
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
+### System Files 
+.DS_Store
