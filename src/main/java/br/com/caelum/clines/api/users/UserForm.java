@@ -14,6 +14,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Getter
 public class UserForm {
+  
 
   @NotBlank
   private String name;
@@ -24,5 +25,6 @@ public class UserForm {
 
   @NotBlank
   private String password;
+  
 
 }
